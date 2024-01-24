@@ -15,7 +15,7 @@
 • cd wifi 
 • pip3 install -r requirements.txt
 • chmod +x wifi.py
-• sudo python wifi -i wlan0 -K
+• sudo python wifi/wifi.py -i wlan0 --iface-down -K
 ```
 #### Help : `sudo python wifi/wifi.py --help`
 #### Example : `sudo python wifi/wifi.py -i wlan0 --iface-down -K`
